@@ -209,6 +209,15 @@ become out of date. Start by building and testing a released version
 of RipMe and then ensure that any changes you make do not cause more
 tests to break.
 
+
+
+
+git add README.md
+git commit -m "docs: note Imagevenue site change and ripper limitation"
+git push origin main
+
+
+
 ## Maintainers: How to Publish a New Release
 
 See wiki: [How to Make a New Ripme Release](https://github.com/RipMeApp/ripme/wiki/How-to-make-a-new-ripme-release)
